@@ -1,10 +1,3 @@
-//
-//  ScreenReaderSampleAppDelegate.m
-//  ScreenReaderSample
-//
-//  Created by EMX on 1/18/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "ScreenReaderSampleAppDelegate.h"
 
@@ -14,12 +7,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+
 }
 
-/**
-    Returns the directory the application uses to store the Core Data store file. This code uses a directory named "ScreenReaderSample" in the user's Library directory.
- */
+
 - (NSURL *)applicationFilesDirectory {
 
     NSFileManager *fileManager = [NSFileManager defaultManager];
