@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		398F588514C6EA0500B1627A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F588414C6EA0500B1627A /* Cocoa.framework */; };
+		398F588F14C6EA0500B1627A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398F588D14C6EA0500B1627A /* InfoPlist.strings */; };
+		398F589214C6EA0500B1627A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F589114C6EA0500B1627A /* main.m */; };
+		398F589514C6EA0500B1627A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 398F589314C6EA0500B1627A /* Credits.rtf */; };
+		398F589814C6EA0500B1627A /* ScreenReaderSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F589714C6EA0500B1627A /* ScreenReaderSampleAppDelegate.m */; };
+		398F589B14C6EA0500B1627A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398F589914C6EA0500B1627A /* MainMenu.xib */; };
+		398F589E14C6EA0500B1627A /* ScreenReaderSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 398F589C14C6EA0500B1627A /* ScreenReaderSample.xcdatamodeld */; };
+		398F58A614C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = 398F58A314C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter */; };
+		398F58A814C6EA0500B1627A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F58A714C6EA0500B1627A /* CoreServices.framework */; };
+		398F58AA14C6EA0500B1627A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F58A914C6EA0500B1627A /* CoreFoundation.framework */; };
+		398F58AC14C6EA0500B1627A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F58AB14C6EA0500B1627A /* CoreData.framework */; };
+		398F58AE14C6EA0500B1627A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398F58AD14C6EA0500B1627A /* Foundation.framework */; };
+		398F58B414C6EA0500B1627A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398F58B214C6EA0500B1627A /* InfoPlist.strings */; };
+		398F58B714C6EA0500B1627A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 398F58B614C6EA0500B1627A /* main.c */; };
+		398F58B914C6EA0500B1627A /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F58B814C6EA0500B1627A /* GetMetadataForFile.m */; };
+		398F58BC14C6EA0500B1627A /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F58BB14C6EA0500B1627A /* MySpotlightImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398F58A414C6EA0500B1627A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398F587714C6EA0500B1627A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398F58A214C6EA0500B1627A;
+			remoteInfo = ScreenReaderSampleImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		398F588014C6EA0500B1627A /* ScreenReaderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenReaderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398F588414C6EA0500B1627A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		398F588714C6EA0500B1627A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		398F588814C6EA0500B1627A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		398F588914C6EA0500B1627A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		398F588C14C6EA0500B1627A /* ScreenReaderSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenReaderSample-Info.plist"; sourceTree = "<group>"; };
+		398F588E14C6EA0500B1627A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		398F589014C6EA0500B1627A /* ScreenReaderSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenReaderSample-Prefix.pch"; sourceTree = "<group>"; };
+		398F589114C6EA0500B1627A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		398F589414C6EA0500B1627A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		398F589614C6EA0500B1627A /* ScreenReaderSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenReaderSampleAppDelegate.h; sourceTree = "<group>"; };
+		398F589714C6EA0500B1627A /* ScreenReaderSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenReaderSampleAppDelegate.m; sourceTree = "<group>"; };
+		398F589A14C6EA0500B1627A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		398F589D14C6EA0500B1627A /* ScreenReaderSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScreenReaderSample.xcdatamodel; sourceTree = "<group>"; };
+		398F58A314C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenReaderSampleImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		398F58A714C6EA0500B1627A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		398F58A914C6EA0500B1627A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		398F58AB14C6EA0500B1627A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		398F58AD14C6EA0500B1627A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		398F58B114C6EA0500B1627A /* ScreenReaderSampleImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenReaderSampleImporter-Info.plist"; sourceTree = "<group>"; };
+		398F58B314C6EA0500B1627A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		398F58B514C6EA0500B1627A /* ScreenReaderSampleImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenReaderSampleImporter-Prefix.pch"; sourceTree = "<group>"; };
+		398F58B614C6EA0500B1627A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		398F58B814C6EA0500B1627A /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		398F58BA14C6EA0500B1627A /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		398F58BB14C6EA0500B1627A /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		398F58BD14C6EA0500B1627A /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398F587D14C6EA0500B1627A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F588514C6EA0500B1627A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398F58A014C6EA0500B1627A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F58A814C6EA0500B1627A /* CoreServices.framework in Frameworks */,
+				398F58AA14C6EA0500B1627A /* CoreFoundation.framework in Frameworks */,
+				398F58AC14C6EA0500B1627A /* CoreData.framework in Frameworks */,
+				398F58AE14C6EA0500B1627A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398F587514C6EA0500B1627A = {
+			isa = PBXGroup;
+			children = (
+				398F588A14C6EA0500B1627A /* ScreenReaderSample */,
+				398F58AF14C6EA0500B1627A /* ScreenReaderSampleImporter */,
+				398F588314C6EA0500B1627A /* Frameworks */,
+				398F588114C6EA0500B1627A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398F588114C6EA0500B1627A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398F588014C6EA0500B1627A /* ScreenReaderSample.app */,
+				398F58A314C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398F588314C6EA0500B1627A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398F588414C6EA0500B1627A /* Cocoa.framework */,
+				398F58A714C6EA0500B1627A /* CoreServices.framework */,
+				398F58A914C6EA0500B1627A /* CoreFoundation.framework */,
+				398F58AB14C6EA0500B1627A /* CoreData.framework */,
+				398F58AD14C6EA0500B1627A /* Foundation.framework */,
+				398F588614C6EA0500B1627A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		398F588614C6EA0500B1627A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398F588714C6EA0500B1627A /* AppKit.framework */,
+				398F588814C6EA0500B1627A /* CoreData.framework */,
+				398F588914C6EA0500B1627A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		398F588A14C6EA0500B1627A /* ScreenReaderSample */ = {
+			isa = PBXGroup;
+			children = (
+				398F589614C6EA0500B1627A /* ScreenReaderSampleAppDelegate.h */,
+				398F589714C6EA0500B1627A /* ScreenReaderSampleAppDelegate.m */,
+				398F589914C6EA0500B1627A /* MainMenu.xib */,
+				398F589C14C6EA0500B1627A /* ScreenReaderSample.xcdatamodeld */,
+				398F588B14C6EA0500B1627A /* Supporting Files */,
+			);
+			path = ScreenReaderSample;
+			sourceTree = "<group>";
+		};
+		398F588B14C6EA0500B1627A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398F588C14C6EA0500B1627A /* ScreenReaderSample-Info.plist */,
+				398F588D14C6EA0500B1627A /* InfoPlist.strings */,
+				398F589014C6EA0500B1627A /* ScreenReaderSample-Prefix.pch */,
+				398F589114C6EA0500B1627A /* main.m */,
+				398F589314C6EA0500B1627A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		398F58AF14C6EA0500B1627A /* ScreenReaderSampleImporter */ = {
+			isa = PBXGroup;
+			children = (
+				398F58B814C6EA0500B1627A /* GetMetadataForFile.m */,
+				398F58BA14C6EA0500B1627A /* MySpotlightImporter.h */,
+				398F58BB14C6EA0500B1627A /* MySpotlightImporter.m */,
+				398F58BD14C6EA0500B1627A /* Importer Read Me.txt */,
+				398F58B014C6EA0500B1627A /* Supporting Files */,
+			);
+			path = ScreenReaderSampleImporter;
+			sourceTree = "<group>";
+		};
+		398F58B014C6EA0500B1627A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398F58B114C6EA0500B1627A /* ScreenReaderSampleImporter-Info.plist */,
+				398F58B214C6EA0500B1627A /* InfoPlist.strings */,
+				398F58B514C6EA0500B1627A /* ScreenReaderSampleImporter-Prefix.pch */,
+				398F58B614C6EA0500B1627A /* main.c */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398F587F14C6EA0500B1627A /* ScreenReaderSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398F58C314C6EA0600B1627A /* Build configuration list for PBXNativeTarget "ScreenReaderSample" */;
+			buildPhases = (
+				398F587C14C6EA0500B1627A /* Sources */,
+				398F587D14C6EA0500B1627A /* Frameworks */,
+				398F587E14C6EA0500B1627A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398F58A514C6EA0500B1627A /* PBXTargetDependency */,
+			);
+			name = ScreenReaderSample;
+			productName = ScreenReaderSample;
+			productReference = 398F588014C6EA0500B1627A /* ScreenReaderSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		398F58A214C6EA0500B1627A /* ScreenReaderSampleImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398F58C014C6EA0600B1627A /* Build configuration list for PBXNativeTarget "ScreenReaderSampleImporter" */;
+			buildPhases = (
+				398F589F14C6EA0500B1627A /* Sources */,
+				398F58A014C6EA0500B1627A /* Frameworks */,
+				398F58A114C6EA0500B1627A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenReaderSampleImporter;
+			productName = ScreenReaderSampleImporter;
+			productReference = 398F58A314C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398F587714C6EA0500B1627A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 398F587A14C6EA0500B1627A /* Build configuration list for PBXProject "ScreenReaderSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 398F587514C6EA0500B1627A;
+			productRefGroup = 398F588114C6EA0500B1627A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398F587F14C6EA0500B1627A /* ScreenReaderSample */,
+				398F58A214C6EA0500B1627A /* ScreenReaderSampleImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398F587E14C6EA0500B1627A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F588F14C6EA0500B1627A /* InfoPlist.strings in Resources */,
+				398F589514C6EA0500B1627A /* Credits.rtf in Resources */,
+				398F589B14C6EA0500B1627A /* MainMenu.xib in Resources */,
+				398F58A614C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398F58A114C6EA0500B1627A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F58B414C6EA0500B1627A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398F587C14C6EA0500B1627A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F589214C6EA0500B1627A /* main.m in Sources */,
+				398F589814C6EA0500B1627A /* ScreenReaderSampleAppDelegate.m in Sources */,
+				398F589E14C6EA0500B1627A /* ScreenReaderSample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398F589F14C6EA0500B1627A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F58B714C6EA0500B1627A /* main.c in Sources */,
+				398F58B914C6EA0500B1627A /* GetMetadataForFile.m in Sources */,
+				398F58BC14C6EA0500B1627A /* MySpotlightImporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		398F58A514C6EA0500B1627A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398F58A214C6EA0500B1627A /* ScreenReaderSampleImporter */;
+			targetProxy = 398F58A414C6EA0500B1627A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		398F588D14C6EA0500B1627A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398F588E14C6EA0500B1627A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		398F589314C6EA0500B1627A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398F589414C6EA0500B1627A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		398F589914C6EA0500B1627A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398F589A14C6EA0500B1627A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		398F58B214C6EA0500B1627A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398F58B314C6EA0500B1627A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		398F58BE14C6EA0500B1627A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		398F58BF14C6EA0500B1627A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		398F58C114C6EA0600B1627A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenReaderSampleImporter/ScreenReaderSampleImporter-Prefix.pch";
+				INFOPLIST_FILE = "ScreenReaderSampleImporter/ScreenReaderSampleImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		398F58C214C6EA0600B1627A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenReaderSampleImporter/ScreenReaderSampleImporter-Prefix.pch";
+				INFOPLIST_FILE = "ScreenReaderSampleImporter/ScreenReaderSampleImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		398F58C414C6EA0600B1627A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenReaderSample/ScreenReaderSample-Prefix.pch";
+				INFOPLIST_FILE = "ScreenReaderSample/ScreenReaderSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		398F58C514C6EA0600B1627A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenReaderSample/ScreenReaderSample-Prefix.pch";
+				INFOPLIST_FILE = "ScreenReaderSample/ScreenReaderSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398F587A14C6EA0500B1627A /* Build configuration list for PBXProject "ScreenReaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398F58BE14C6EA0500B1627A /* Debug */,
+				398F58BF14C6EA0500B1627A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398F58C014C6EA0600B1627A /* Build configuration list for PBXNativeTarget "ScreenReaderSampleImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398F58C114C6EA0600B1627A /* Debug */,
+				398F58C214C6EA0600B1627A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		398F58C314C6EA0600B1627A /* Build configuration list for PBXNativeTarget "ScreenReaderSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398F58C414C6EA0600B1627A /* Debug */,
+				398F58C514C6EA0600B1627A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		398F589C14C6EA0500B1627A /* ScreenReaderSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				398F589D14C6EA0500B1627A /* ScreenReaderSample.xcdatamodel */,
+			);
+			currentVersion = 398F589D14C6EA0500B1627A /* ScreenReaderSample.xcdatamodel */;
+			path = ScreenReaderSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 398F587714C6EA0500B1627A /* Project object */;
+}
