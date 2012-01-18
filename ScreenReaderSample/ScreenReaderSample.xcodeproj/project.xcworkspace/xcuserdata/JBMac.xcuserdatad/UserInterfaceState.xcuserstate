@@ -364,7 +364,7 @@
 			</array>
 		</dict>
 		<string>{6906, 544}</string>
-		<real>348580785.73444301</real>
+		<real>348580787.285918</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -869,7 +869,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>348580785.73434401</real>
+		<real>348580792.39361101</real>
 		<string>{0, 1325}</string>
 		<integer>0</integer>
 		<dict>
@@ -2596,7 +2596,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>348580785.73528099</real>
+		<real>348580792.394728</real>
 		<string>{0, 1325}</string>
 		<dict>
 			<key>$class</key>
