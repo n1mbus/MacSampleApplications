@@ -4,16 +4,10 @@
 @implementation ScreenReaderSampleAppDelegate
 
 @synthesize window;
-@synthesize pushButton1;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 
-}
-
-- (IBAction) pushImplementation
-{
-    NSLog(@"hello push button");
 }
 
 

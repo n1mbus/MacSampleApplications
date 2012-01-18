@@ -23,6 +23,7 @@
 		398F58B714C6EA0500B1627A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 398F58B614C6EA0500B1627A /* main.c */; };
 		398F58B914C6EA0500B1627A /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F58B814C6EA0500B1627A /* GetMetadataForFile.m */; };
 		398F58BC14C6EA0500B1627A /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F58BB14C6EA0500B1627A /* MySpotlightImporter.m */; };
+		398F58C914C6FF1200B1627A /* google1-620x465.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398F58C814C6FF1200B1627A /* google1-620x465.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		398F58BA14C6EA0500B1627A /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
 		398F58BB14C6EA0500B1627A /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
 		398F58BD14C6EA0500B1627A /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		398F58C814C6FF1200B1627A /* google1-620x465.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "google1-620x465.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		398F58B014C6EA0500B1627A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				398F58C814C6FF1200B1627A /* google1-620x465.jpg */,
 				398F58B114C6EA0500B1627A /* ScreenReaderSampleImporter-Info.plist */,
 				398F58B214C6EA0500B1627A /* InfoPlist.strings */,
 				398F58B514C6EA0500B1627A /* ScreenReaderSampleImporter-Prefix.pch */,
@@ -247,6 +250,7 @@
 				398F589514C6EA0500B1627A /* Credits.rtf in Resources */,
 				398F589B14C6EA0500B1627A /* MainMenu.xib in Resources */,
 				398F58A614C6EA0500B1627A /* ScreenReaderSampleImporter.mdimporter in Resources */,
+				398F58C914C6FF1200B1627A /* google1-620x465.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
