@@ -436,8 +436,8 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{0, 491}</string>
-		<real>348580957.83499098</real>
+		<string>{5912, 686}</string>
+		<real>348581052.274306</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2670,7 +2670,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>348580957.83588302</real>
+		<real>348581052.27525997</real>
 		<string>{0, 1327}</string>
 		<string>{184, 0}</string>
 		<string>-applicationDidFinishLaunching:</string>
